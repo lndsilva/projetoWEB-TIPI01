@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+<body>
+    <h1>Contato</h1>
+    <form action="contato-resp.html" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" size="50" 
+        maxlength="100" placeholder="Insira seu nome"
+        autofocus autocomplete="off">
+        <br>
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email"
+        size="50" maxlength="100" placeholder="Insira seu e-mail"
+        autocomplete="off">
+        <br>
+        <br>
+        <label for="tel">Telefone:</label>
+        <input type="tel" name="tel" id="tel"
+        size="13" maxlength="13" placeholder="11-99999-9999"
+        autocomplete="off">
+        <br>
+        <br>
+        <label for="comentario">Comentário:</label>
+        <br>
+        <textarea name="comentario" 
+        id="comentario" cols="30" rows="10" style="resize: none;" placeholder="Insira seu comentário"></textarea>         <br>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+#menu-h{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(37, 37, 39);
+}
+#menu-h li{
+    display: inline;
+}
+#menu-h li a{
+    color: #fff;
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .6%;
+}
+#menu-h li a:hover{
+    background-color: rgb(24, 139, 233);
+}
+#menu-h ul li:last-child a{
+    float: right;
+    background-color: rgb(24, 139, 233);
+}

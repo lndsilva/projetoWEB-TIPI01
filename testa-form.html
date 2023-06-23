@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testa formulário HTML</title>
+</head>
+<body>
+    <h1>Testa formulário</h1>
+    <form action="cadastro-resp.html" method="post">
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Insira seu nome" 
+        autofocus autocomplete="off">
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" placeholder="Insira seu e-mail" autocomplete="off">
+        
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" placeholder="999.999.999-99" 
+        maxlength="14" size="14" autocomplete="off">        
+        <br><br>
+        
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+        
+    </form>
+</body>
+</html>
