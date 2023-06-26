@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #ffffff;
+}
+h1{
+    background-color: darkred;
+    border: 10px solid yellow;
+}
+p{
+    background-color: rgba(255,99,71, 0.5);
+    border: 12px solid rgb(150, 235, 85);
+}
+div{
+    background-color: yellow;
+    opacity: 0.5;
+}
+h2{
+    background-color: #ff000050;
+}
+/*trabalhando com bordas*/
+#borda-superior{
+    border-top: 2px dotted blueviolet;
+    border-bottom: 3px dashed red;
+    border-right: 4px double yellowgreen;
+    border-left: 5px ridge #0cc78f50;
+}
+#borda-inferior{
+    border-bottom: 2px outset red;    
+}
+#borda-direita{
+    border-right: 3px groove green;
+}
+#borda-esquerda{
+    border-left: 4px double blue;
+}
+/*trabalhando com margens*/
+#margem-superior{
+    margin: 10px 12px 8px 7px;
+}
+#margem-inferior{
+    margin-bottom: 15px;
+}
+#margem-direita{
+    margin-right: 20px;
+}
+#margem-esquerda{
+    margin-left: 20px;
+}
+/*Configurando o container*/
+#container{
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+
+}
+/*Trabalhando com família de fontes*/
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: italic;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-style: oblique;
+}
